@@ -16,12 +16,12 @@ public class Buyer {
     private Long id;
 
     @NotBlank(message = "Name is required")
-    @Schema(description = "Name of the buyer", example = "John Doe", required = true)
+    @Schema(description = "Name of the buyer", example = "Test User", required = true)
     private String name;
 
     @NotBlank(message = "Email is required")
     @Email(message = "Invalid email format")
-    @Schema(description = "Email address of the buyer", example = "john.doe@example.com", required = true)
+    @Schema(description = "Email address of the buyer", example = "testuser@example.com", required = true)
     private String email;
 
     @OneToMany(mappedBy = "buyer")
