@@ -23,7 +23,7 @@ This project implements a RESTful API for a marketplace platform where buyers ca
 - ✅ **Error Handling** - Comprehensive error responses
 - ✅ **Database Relationships** - Proper JPA entity relationships
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **Java 19** (Compatible with Java 17+)
 - **Spring Boot 3.5.3** - Main framework
@@ -33,7 +33,7 @@ This project implements a RESTful API for a marketplace platform where buyers ca
 - **OpenAPI 3.0** - API documentation
 - **Bean Validation** - Input validation
 
-## 📊 Database Schema
+## Database Schema
 
 ### Entity Relationships
 
